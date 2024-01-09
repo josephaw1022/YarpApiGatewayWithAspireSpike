@@ -1,0 +1,14 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: apigateway
+spec:
+  type: ClusterIP
+  selector:
+    app: apigateway
+  ports:
+  - name: http
+    port: 8080
+  - name: https
+    port: 8443

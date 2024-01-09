@@ -2,13 +2,13 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: apigateway
+  name: microservice1
 spec:
   minReadySeconds: 60
   replicas: 1
   selector:
     matchLabels:
-      app: apigateway
+      app: microservice1
   strategy:
     rollingUpdate:
       maxUnavailable: 0
@@ -16,16 +16,16 @@ spec:
   template:
     metadata:
       labels:
-        app: apigateway
+        app: microservice1
     spec:
       containers:
-      - name: apigateway
-        image: localhost:5001/apigateway:latest
-        imagePullPolicy: IfNotPresent
+      - name: microservice1
+        image: localhost:5001/microservice1:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
         - containerPort: 8443
         envFrom:
         - configMapRef:
-            name: apigateway-env
+            name: microservice1-env
       terminationGracePeriodSeconds: 180

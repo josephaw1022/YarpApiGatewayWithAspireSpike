@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: apache-htaccess
-data:
-  .htaccess: |
-    # Your .htaccess rules here
-    RewriteEngine On
-    RewriteRule ^/admin/(.*)$ /$1 [PT,L]

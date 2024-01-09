@@ -12,13 +12,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: my-webapp-service
+            name: apigateway
             port:
-              number: 80
-      - path: /admin
-        pathType: Prefix
-        backend:
-          service:
-            name: apache-service
-            port:
-              number: 80
+              number: 8080

@@ -21,7 +21,7 @@ spec:
       containers:
       - name: microservice1
         image: localhost:5001/microservice1:latest
-        imagePullPolicy: Always
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
         - containerPort: 8443
