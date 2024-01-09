@@ -1,0 +1,7 @@
+{
+  "TemplatePath": null,
+  "ContainerSettings": {
+    "Registry": "localhost:5001",
+    "Tag": "latest"
+  }
+}

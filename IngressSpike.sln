@@ -1,0 +1,48 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.0.0
+MinimumVisualStudioVersion = 17.8.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IngressSpike.AppHost", "IngressSpike.AppHost\IngressSpike.AppHost.csproj", "{7E10A898-A624-4E47-B536-AB2FC0176CFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IngressSpike.ServiceDefaults", "IngressSpike.ServiceDefaults\IngressSpike.ServiceDefaults.csproj", "{109BC9D8-663B-4B41-858C-1FCD6574E1EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apigateway", "apigateway\apigateway.csproj", "{10143B97-C8FB-4DAC-AA77-B2F07BD3A3A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "microservice1", "microservice1\microservice1.csproj", "{D1DD2828-13B8-4DE5-84B1-F6CB137A533B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "microservice2", "microservice2\microservice2.csproj", "{04C75A80-E126-4A63-863D-C7553B5A8DED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E10A898-A624-4E47-B536-AB2FC0176CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E10A898-A624-4E47-B536-AB2FC0176CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E10A898-A624-4E47-B536-AB2FC0176CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E10A898-A624-4E47-B536-AB2FC0176CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{109BC9D8-663B-4B41-858C-1FCD6574E1EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{109BC9D8-663B-4B41-858C-1FCD6574E1EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{109BC9D8-663B-4B41-858C-1FCD6574E1EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{109BC9D8-663B-4B41-858C-1FCD6574E1EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10143B97-C8FB-4DAC-AA77-B2F07BD3A3A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10143B97-C8FB-4DAC-AA77-B2F07BD3A3A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10143B97-C8FB-4DAC-AA77-B2F07BD3A3A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10143B97-C8FB-4DAC-AA77-B2F07BD3A3A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1DD2828-13B8-4DE5-84B1-F6CB137A533B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1DD2828-13B8-4DE5-84B1-F6CB137A533B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1DD2828-13B8-4DE5-84B1-F6CB137A533B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1DD2828-13B8-4DE5-84B1-F6CB137A533B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C75A80-E126-4A63-863D-C7553B5A8DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C75A80-E126-4A63-863D-C7553B5A8DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C75A80-E126-4A63-863D-C7553B5A8DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C75A80-E126-4A63-863D-C7553B5A8DED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {842529C6-6C8B-4312-80EE-C37E10F05860}
+	EndGlobalSection
+EndGlobal

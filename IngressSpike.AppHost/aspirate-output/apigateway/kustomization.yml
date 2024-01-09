@@ -1,0 +1,18 @@
+resources:
+- deployment.yml
+- service.yml
+
+generatorOptions:
+  disableNameSuffixHash: true
+
+configMapGenerator:
+- name: apigateway-env
+  literals:
+    - OTEL_DOTNET_EXPERIMENTAL_OTLP_EMIT_EXCEPTION_LOG_ATTRIBUTES=true
+    - OTEL_DOTNET_EXPERIMENTAL_OTLP_EMIT_EVENT_LOG_ATTRIBUTES=true
+    - services__microservice1__0=http://microservice1:8080
+    - services__microservice1__1=https://microservice1:8443
+    - services__microservice2__0=http://microservice2:8080
+    - services__microservice2__1=https://microservice2:8443
+    - ASPNETCORE_URLS=http://+:8080
+
