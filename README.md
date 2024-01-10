@@ -3,7 +3,9 @@
 
 ## Overview
 
-Welcome to the Aspire & Aspir8 Microservices Tutorial repository. This repository contains the necessary code and resources to guide you through setting up and deploying microservices in a Kubernetes environment using Aspire & Aspir8. It's designed to simplify the process of managing container orchestration and service discovery without the need for complex Docker or YAML configurations.
+Welcome to the Aspire & Aspir8 Microservices Tutorial repository. This repository contains the necessary code and resources to guide you through setting up and deploying microservices in a Kubernetes environment using Aspire & Aspir8. It's designed to simplify the process of managing container orchestration and service discovery without the need for complex Docker or YAML configurations. 
+
+Blog Post: https://medium.com/@josephsims1/aspire-aspi8-deploy-microservices-effortlessly-with-cli-no-docker-or-yaml-needed-f30b58443107
 
 ## Prerequisites
 
