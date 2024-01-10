@@ -1,0 +1,8 @@
+resources:
+- microservice1
+- microservice2
+- apigateway
+
+generatorOptions:
+  disableNameSuffixHash: true
+

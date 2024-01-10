@@ -21,7 +21,7 @@ spec:
       containers:
       - name: apigateway
         image: localhost:5001/apigateway:latest
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
         - containerPort: 8443
