@@ -2,6 +2,7 @@ resources:
 - microservice1
 - microservice2
 - apigateway
+- dashboard.yml
 
 generatorOptions:
   disableNameSuffixHash: true

@@ -1,7 +1,9 @@
 {
   "TemplatePath": null,
   "ContainerSettings": {
-    "Registry": "localhost:5001",
-    "Tag": "latest"
+    "Registry": null,
+    "RepositoryPrefix": null,
+    "Tag": null,
+    "Builder": "docker"
   }
 }
