@@ -5,7 +5,8 @@
       "path": "../microservice1/microservice1.csproj",
       "env": {
         "OTEL_DOTNET_EXPERIMENTAL_OTLP_EMIT_EXCEPTION_LOG_ATTRIBUTES": "true",
-        "OTEL_DOTNET_EXPERIMENTAL_OTLP_EMIT_EVENT_LOG_ATTRIBUTES": "true"
+        "OTEL_DOTNET_EXPERIMENTAL_OTLP_EMIT_EVENT_LOG_ATTRIBUTES": "true",
+        "ASPNETCORE_FORWARDEDHEADERS_ENABLED": "true"
       },
       "bindings": {
         "http": {
@@ -25,7 +26,8 @@
       "path": "../microservice2/microservice2.csproj",
       "env": {
         "OTEL_DOTNET_EXPERIMENTAL_OTLP_EMIT_EXCEPTION_LOG_ATTRIBUTES": "true",
-        "OTEL_DOTNET_EXPERIMENTAL_OTLP_EMIT_EVENT_LOG_ATTRIBUTES": "true"
+        "OTEL_DOTNET_EXPERIMENTAL_OTLP_EMIT_EVENT_LOG_ATTRIBUTES": "true",
+        "ASPNETCORE_FORWARDEDHEADERS_ENABLED": "true"
       },
       "bindings": {
         "http": {
@@ -46,10 +48,11 @@
       "env": {
         "OTEL_DOTNET_EXPERIMENTAL_OTLP_EMIT_EXCEPTION_LOG_ATTRIBUTES": "true",
         "OTEL_DOTNET_EXPERIMENTAL_OTLP_EMIT_EVENT_LOG_ATTRIBUTES": "true",
-        "services__microservice1__0": "{microservice1.bindings.http.url}",
-        "services__microservice1__1": "{microservice1.bindings.https.url}",
-        "services__microservice2__0": "{microservice2.bindings.http.url}",
-        "services__microservice2__1": "{microservice2.bindings.https.url}"
+        "ASPNETCORE_FORWARDEDHEADERS_ENABLED": "true",
+        "services__microservice1__http__0": "{microservice1.bindings.http.url}",
+        "services__microservice1__https__0": "{microservice1.bindings.https.url}",
+        "services__microservice2__http__0": "{microservice2.bindings.http.url}",
+        "services__microservice2__https__0": "{microservice2.bindings.https.url}"
       },
       "bindings": {
         "http": {

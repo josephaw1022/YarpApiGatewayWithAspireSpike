@@ -6,10 +6,10 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Yarp.ReverseProxy" Version="2.1.0" />
-    <PackageReference Include="Microsoft.Extensions.ServiceDiscovery" Version="8.0.0-preview.2.23619.3" />
-    <PackageReference Include="Microsoft.Extensions.ServiceDiscovery.Abstractions" Version="8.0.0-preview.2.23619.3" />
-    <PackageReference Include="Microsoft.Extensions.ServiceDiscovery.Yarp" Version="8.0.0-preview.2.23619.3" />
-    <PackageReference Include="Microsoft.Extensions.ServiceDiscovery.Dns" Version="8.0.0-preview.2.23619.3" />
+    <PackageReference Include="Microsoft.Extensions.ServiceDiscovery" Version="8.0.0-preview.6.24214.1" />
+    <PackageReference Include="Microsoft.Extensions.ServiceDiscovery.Abstractions" Version="8.0.0-preview.6.24214.1" />
+    <PackageReference Include="Microsoft.Extensions.ServiceDiscovery.Yarp" Version="8.0.0-preview.6.24214.1" />
+    <PackageReference Include="Microsoft.Extensions.ServiceDiscovery.Dns" Version="8.0.0-preview.6.24214.1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\IngressSpike.ServiceDefaults\IngressSpike.ServiceDefaults.csproj" />
